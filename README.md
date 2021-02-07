@@ -1,6 +1,6 @@
 # SW-Republican-Fleet-site
 
-Сайт с эффектом, как у GloverofThanos-site, но похожий на гиперпрыжок
+Сайт с эффектом, как у GloverofThanos-site, но похожий на гиперпрыжок (hyperjump)
  
 https://vladimirsaenko.github.io/Portfolio-2/sites/site-29/SW-Republican-Fleet-site/index.html
 
