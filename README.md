@@ -6,7 +6,7 @@
 
 ## Portfolio {
  
-### https://vladimirsaenko.github.io/Portfolio-2/sites/site-29/SW-Republican-Fleet-site/index.html
+### https://vladimirsaenko.github.io/Portfolio-2/sites/site-27/SW-Republican-Fleet-site/index.html
 
 ### }
 
@@ -16,7 +16,7 @@
 
 ### https://github.com/VladimirSaenko/GloveOfThanos-site
 
-### https://vladimirsaenko.github.io/Portfolio-2/sites/site-28/GloveOfThanos/index.html
+### https://vladimirsaenko.github.io/Portfolio-2/sites/site-26/GloveOfThanos/index.html
 
 ### }
 
