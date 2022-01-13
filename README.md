@@ -1,4 +1,4 @@
-# SW-Republican-Fleet-site
+# SW-Republican-Fleet-hyperjump
 
 ## Сайт с эффектом  гиперпрыжка (hyperjump) Флота Галактической Республики
 
