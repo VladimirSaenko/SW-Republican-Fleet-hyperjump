@@ -59,7 +59,7 @@ section h2 {
 @keyframes animate {
     0% {
         transform: translateZ(2000px);
-        background: url(images/RepublicNavyFleet.png);
+        background: url(images/RepublicFleet.png);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -68,7 +68,7 @@ section h2 {
 
     100% {
         transform: translateZ(0px);
-        background: url(images/RepublicNavyFleet.png);
+        background: url(images/RepublicFleet.png);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -79,7 +79,7 @@ section h2 {
 
 section.active .banner .blocks {
     animation: animateTwo 2s ease-in-out forwards;
-    background: url(images/RepublicNavyFleet.png);
+    background: url(images/RepublicFleet.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -105,5 +105,63 @@ section.active .banner .blocks {
         background-attachment: fixed;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0);
         border: 1px solid rgba(0, 0, 0.1);
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    @keyframes animate {
+        0% {
+            transform: translateZ(2000px);
+            background: url(images/republicanFleet2.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0.5);
+        }
+    
+        100% {
+            transform: translateZ(0px);
+            background: url(images/republicanFleet2.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0);
+            border: 1px solid rgba(0, 0, 0.1);
+        }
+    }
+    
+    section.active .banner .blocks {
+        animation: animateTwo 2s ease-in-out forwards;
+        background: url(images/republicanFleet2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0);
+        border: 1px solid rgba(0, 0, 0.1);
+    }
+    
+    @keyframes animateTwo {
+        0% {
+            transform: translateZ(0px);
+            background: url(images/republicanFleet2.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0.5);
+        }
+        
+        100% {
+            transform: translateZ(2000px);
+            background: url(images/republicanFleet2.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0);
+            border: 1px solid rgba(0, 0, 0.1);
+        }
+    }
+
+    .banner {
+        transform: scale(-1, 1);
     }
 }
